@@ -1,6 +1,6 @@
 const express = require ('express');  1.1M(gzipped: 378.7k)
 const cors = require ('cors'); 4.8k (gripped:2k)
-const monk - require('monk');
+const monk = require('monk');
 
 const app = express();
 const db = monk ('localhost/meower');
