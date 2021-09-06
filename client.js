@@ -27,7 +27,7 @@ loadingElement.style.display ='';
     method: 'POST',
     body: JSON.stringify(mew),
     headers: {
-    'content-type':'applocation/json'}
+    'content-type':'application/json'}
 
 }).then(Response => Response.json())
     .then(createdMew =>{
